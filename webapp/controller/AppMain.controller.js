@@ -4,13 +4,13 @@ sap.ui.define([
 ], function (Controller,MessageBox) {
 	"use strict";
 
-	return Controller.extend("ds.test.controller.AppMain", {
+	return Controller.extend("ui5.test.controller.AppMain", {
 		onInit: function () {
 			console.log("onInit AppMain");
 		},
 
-		onPressBtn: function () {
-			MessageBox.alert("Welcome to SAPUI5");
+		onPressTile : function () {
+			window.open("https://open.kakao.com/o/gaOOsZ4b","_href");
 		}
 	});
 });

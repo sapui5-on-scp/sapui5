@@ -1,15 +1,20 @@
-<mvc:View controllerName="ds.test.controller.AppMain"
+<mvc:View controllerName="ui5.test.controller.AppMain"
 	xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
 	xmlns="sap.m">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
-				<Page id="page" title="{i18n>title}">
+				<Page id="page" title="">
 					<content>
-						<VBox>
-							<Button text='hello world' press="onPressBtn"/>
-							<Link text="Open KaKao Chatting" target="_blank" href="https://open.kakao.com/o/gaOOsZ4b" />
-						</VBox>
+						<Panel>
+							<FlexBox height="100%" alignItems="Center" justifyContent="Center">
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" backgroundImage="./resources/ui5_logo.png" frameType="TwoByOne" press="onPressTile">
+									<TileContent footer="클릭하시면 이동합니다." frameType="TwoByOne">
+										<NewsContent contentText="#SAPUI5 #FIORI #SCP #Javascript #IT Trends" subheader="Kakao Talk Open Chatting" />
+									</TileContent>
+								</GenericTile>
+							</FlexBox>
+						</Panel>
 					</content>
 				</Page>
 			</pages>
