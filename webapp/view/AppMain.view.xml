@@ -14,12 +14,11 @@
 										<NewsContent contentText="#SAPUI5 #FIORI #SCP #Javascript #IT Trends" subheader="관심있으신 분은 참여 부탁드립니다. (65/100명)" />
 									</TileContent>
 								</GenericTile>
-
 							</Panel>
 							<Panel>
-								<t:TreeTable id="TreeTableBasic" rows="{path:'link>/catalog/url', parameters: {arrayNames:['categories']}}" selectionMode="None" enableSelectAll="false" ariaLabelledBy="title" visibleRowCount="15">
+								<t:TreeTable id="TreeTableBasic" rows="{path:'link>/catalog/url', parameters: {arrayNames:['categories']}}" selectionMode="None" enableSelectAll="false" ariaLabelledBy="title" visibleRowCount="8">
 									<t:extension>
-										<OverflowToolbar>
+										<OverflowToolbar width="20rem">
 											<Title id="title" text="Useful Link"/>
 											<ToolbarSpacer/>
 											<Button text="펴기" press="onExpandAll"/>
@@ -27,13 +26,13 @@
 										</OverflowToolbar>
 									</t:extension>
 									<t:columns>
-										<t:Column width="13rem">
+										<t:Column width="9rem">
 											<Label text="Categories"/>
 											<t:template>
 												<Text text="{link>category}" wrapping="false" />
 											</t:template>
 										</t:Column>
-										<t:Column width="15rem">
+										<t:Column width="10rem">
 											<Label text="URL Link"/>
 											<t:template>
 												<Link text="{link>name}" target="_blank" href="{link>linkHref}"/>
