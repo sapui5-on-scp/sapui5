@@ -26,6 +26,9 @@ sap.ui.define([
 
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
+
+			// useful link json file binding
+			this.setModel(models.createLinkModel(), "link");
 		}
 	});
 });
