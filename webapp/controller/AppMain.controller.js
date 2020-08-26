@@ -8,6 +8,8 @@ sap.ui.define([
 		onInit: function () {
 			console.log("onInit AppMain");
 			this.onExpandAll();
+			let oTreeTable = this.byId("TreeTableBasic");
+			oTreeTable.addStyleClass("tWidth30");
 		},
 
 		onPressTile : function () {
@@ -15,12 +17,12 @@ sap.ui.define([
 		},
  
 		onCollapseAll: function() {
-			var oTreeTable = this.byId("TreeTableBasic");
+			let oTreeTable = this.byId("TreeTableBasic");
 			oTreeTable.collapseAll();
 		},
 
 		onExpandAll : function () {
-			var oTreeTable = this.byId("TreeTableBasic");
+			let oTreeTable = this.byId("TreeTableBasic");
 			oTreeTable.expandToLevel(2);
 		}
 	});

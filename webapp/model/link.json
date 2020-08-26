@@ -1,39 +1,122 @@
 {
-    "catalog": {
-      "url": {
-        "categories": [
-          {"name": "SAPUI5", "categories": [
-            {"name":"Important", "categories": [
-                {"name": "SAPUI5 SDK", "linkHref" : "https://sapui5.hana.ondemand.com/","desc":"SAPUI5 SDK"},
-                {"name": "Icon Explorer", "linkHref" : "https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html","desc":"Icon Explorer"},
-                {"name": "SAP Community", "linkHref" : "https://answers.sap.com/tags/500983881501772639608291559920477?page=1&pageSize=15&sort=active&filter=all","desc":"SAPUI5 공식 묻고답하기"}
-            ]},
-            {"name":"Tutorials", "categories": [
-                {"name": "RIP Tutorial","linkHref" : "https://riptutorial.com/sapui5/example/25720/aggregation-binding-using-templates-in-xmlview", "desc":"SAPUI5 튜토리얼"},
-                {"name": "opensapkr","linkHref" : "https://velog.io/@opensapkr?tag=ui5", "desc":"UI5관련 Velog"},
-                {"name": "Tutorial Point","linkHref" : "https://www.tutorialspoint.com/sap_ui5/sap_ui5_overview.htm", "desc":"SAPUI5 튜토리얼"}
-            ]},
-            {"name":"UI/UX", "categories": [
-              {"name": "Fiori Design Guide", "linkHref" : "https://experience.sap.com/fiori-design-web/" ,"desc" : ""},
-              {"name": "BUILD ME", "linkHref" : "https://build.me" ,"desc" : ""}
-          ]},
-            {"name":"Etc", "categories": [
-              {"name": "Coding Guidelines", "linkHref" : "https://blog.sap-press.com/sapui5-coding-guidelines" ,"desc" : ""},
-              {"name": "UI5 Best Practices", "linkHref" : "https://inui.io/sap-ui5-best-practices/" ,"desc" : "SAPUI5코딩시 피해야할 것들"}
-          ]}
-          ]},
-          {"name": "Javascript", "categories": [
-            {"name":"Tutorials", "categories": [
-                {"name": "모던 Javascript","linkHref" : "https://ko.javascript.info/", "desc":""}
-            ]},
-            {"name":"UI/UX", "categories": [
-
-          ]},
-            {"name":"Etc", "categories": [
-              {"name": "Git 웹호스팅 가이드","linkHref" : "https://opentutorials.org/course/3084/18891", "desc":""},
-              {"name": "ES6관련","linkHref" : "https://blog.pragmatists.com/top-10-es6-features-by-example-80ac878794bb", "desc":"자주쓰는 Example"}
-          ]}
-          ]}  
-        ]}
-      }
+  "catalog": {
+    "url": {
+      "categories": [
+        {
+          "category": "SAPUI5",
+          "categories": [
+            {
+              "category": "Important",
+              "categories": [
+                {
+                  "name": "SAPUI5 SDK",
+                  "linkHref": "https://sapui5.hana.ondemand.com/"
+                },
+                {
+                  "name": "Icon Explorer",
+                  "linkHref": "https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html"
+                },
+                {
+                  "name": "SAP Community (UI5)",
+                  "linkHref": "https://answers.sap.com/tags/500983881501772639608291559920477?page=1&pageSize=15&sort=active&filter=all"
+                }
+              ]
+            },
+            {
+              "category": "Tutorials",
+              "categories": [
+                {
+                  "name": "RIP Tutorial (UI5)",
+                  "linkHref": "https://riptutorial.com/sapui5/example/25720/aggregation-binding-using-templates-in-xmlview"
+                },
+                {
+                  "name": "UI5관련 Velog",
+                  "linkHref": "https://velog.io/@opensapkr?tag=ui5"
+                },
+                {
+                  "name": "SAPUI5 관련 튜토리얼",
+                  "linkHref": "https://www.tutorialspoint.com/sap_ui5/sap_ui5_overview.htm"
+                }
+              ]
+            },
+            {
+              "category": "UI/UX",
+              "categories": [
+                {
+                  "name": "Fiori Design Guide",
+                  "linkHref": "https://experience.sap.com/fiori-design-web/"
+                },
+                {
+                  "name": "BUILD ME",
+                  "linkHref": "https://build.me"
+                }
+              ]
+            },
+            {
+              "category": "Etc",
+              "categories": [
+                {
+                  "name": "Coding Guidelines",
+                  "linkHref": "https://blog.sap-press.com/sapui5-coding-guidelines"
+                },
+                {
+                  "name": "UI5 Best Practices",
+                  "linkHref": "https://inui.io/sap-ui5-best-practices/"
+                },
+                {
+                  "name": "oData Service",
+                  "linkHref": "https://blogs.sap.com/2018/04/10/sap-fiori-odata-service-examples/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "category": "Javascript",
+          "categories": [
+            {
+              "category": "Blog",
+              "categories": [
+                {
+                  "name": "JS개발자라면 알아야할 33가지 개념",
+                  "linkHref": "https://velog.io/@jakeseo_me/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-33%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90-9-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-1qjury0gya"
+                }
+              ]
+            },
+            {
+              "category": "Tutorials",
+              "categories": [
+                {
+                  "name": "모던 Javascript",
+                  "linkHref": "https://ko.javascript.info/"
+                }
+              ]
+            },
+            { "category": "UI/UX", "categories": [] },
+            {
+              "category": "Etc",
+              "categories": [
+                {
+                  "name": "Git 웹호스팅 가이드",
+                  "linkHref": "https://opentutorials.org/course/3084/18891"
+                },
+                {
+                  "name": "ES6 Example",
+                  "linkHref": "https://blog.pragmatists.com/top-10-es6-features-by-example-80ac878794bb"
+                },
+                {
+                  "name": "JSON으로 작업하기",
+                  "linkHref": "https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/JSON"
+                },
+                {
+                  "name": "Git 기초 (시작하기)",
+                  "linkHref": "https://medium.com/@pks2974/%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%B4%88-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-533b3689db81"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
+  }
+}

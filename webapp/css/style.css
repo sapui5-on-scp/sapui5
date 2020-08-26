@@ -1,1 +1,9 @@
 /* Enter your custom styles here */
+
+.tWidth30 {
+    width : 30rem !important;
+}
+
+.myPanel .sapMPanelContent:not(.sapMPanelBGTransparent) {
+    border-bottom: 0;
+}

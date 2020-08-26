@@ -1,52 +1,48 @@
 <mvc:View controllerName="ui5.test.controller.AppMain"
 	xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-	xmlns="sap.m"  xmlns:t="sap.ui.table">
+	xmlns="sap.m"
+	xmlns:t="sap.ui.table">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="">
 					<content>
-						<Panel>
-							<FlexBox height="100%" alignItems="Center" justifyContent="Center">
+						<FlexBox height="100%" alignItems="Center" justifyContent="Center" direction="Column">
+							<Panel class="myPanel">
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" backgroundImage="./resources/ui5_logo.png" frameType="TwoByOne" press="onPressTile">
 									<TileContent footer="클릭하시면 오픈채팅방으로 이동합니다." frameType="TwoByOne">
-										<NewsContent contentText="#SAPUI5 #FIORI #SCP #Javascript #IT Trends" subheader="Kakao Talk Open Chatting" />
+										<NewsContent contentText="#SAPUI5 #FIORI #SCP #Javascript #IT Trends" subheader="관심있으신 분은 참여 부탁드립니다. (65/100명)" />
 									</TileContent>
 								</GenericTile>
-							</FlexBox>
-						</Panel>
-						<Panel>
-							<t:TreeTable id="TreeTableBasic" rows="{path:'link>/catalog/url', parameters: {arrayNames:['categories']}}" selectionMode="None" enableSelectAll="false" ariaLabelledBy="title" visibleRowCount="15">
-								<t:extension>
-									<OverflowToolbar>
-										<Title id="title" text="Useful Link"/>
-										<ToolbarSpacer/>
-										<Button text="펴기" press="onExpandAll"/>
-										<Button text="접기" press="onCollapseAll"/>
-									</OverflowToolbar>
-								</t:extension>
-								<t:columns>
-									<t:Column width="13rem">
-										<Label text="Categories"/>
-										<t:template>
-											<Text text="{link>name}" wrapping="false" />
-										</t:template>
-									</t:Column>
-									<t:Column width="15rem">
-										<Label text="URL Link"/>
-										<t:template>
-											<Link text="{link>linkHref}" target="_blank" href="{link>linkHref}"/>
-										</t:template>
-									</t:Column>
-									<t:Column width="15rem">
-										<Label text="Description"/>
-										<t:template>
-											<Text text="{link>desc}"/>
-										</t:template>
-									</t:Column>
-								</t:columns>
-							</t:TreeTable>
-						</Panel>
+
+							</Panel>
+							<Panel>
+								<t:TreeTable id="TreeTableBasic" rows="{path:'link>/catalog/url', parameters: {arrayNames:['categories']}}" selectionMode="None" enableSelectAll="false" ariaLabelledBy="title" visibleRowCount="15">
+									<t:extension>
+										<OverflowToolbar>
+											<Title id="title" text="Useful Link"/>
+											<ToolbarSpacer/>
+											<Button text="펴기" press="onExpandAll"/>
+											<Button text="접기" press="onCollapseAll"/>
+										</OverflowToolbar>
+									</t:extension>
+									<t:columns>
+										<t:Column width="13rem">
+											<Label text="Categories"/>
+											<t:template>
+												<Text text="{link>category}" wrapping="false" />
+											</t:template>
+										</t:Column>
+										<t:Column width="15rem">
+											<Label text="URL Link"/>
+											<t:template>
+												<Link text="{link>name}" target="_blank" href="{link>linkHref}"/>
+											</t:template>
+										</t:Column>
+									</t:columns>
+								</t:TreeTable>
+							</Panel>
+						</FlexBox>
 					</content>
 				</Page>
 			</pages>
