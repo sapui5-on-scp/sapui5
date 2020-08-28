@@ -13,6 +13,10 @@
       "href": "https://answers.sap.com/tags/500983881501772639608291559920477?page=1&pageSize=15&sort=active&filter=all"
     },
     {
+      "name": "문바이님의 블로그 (UI5 및 기타SAP전반)",
+      "href": "http://m.blog.daum.net/rightvoice/category/UI5/UI5_%EB%82%B4%EC%9A%A9%EC%A0%95%EB%A6%AC"
+    },
+    {
       "name": "RIP Tutorial (UI5)",
       "href": "https://riptutorial.com/sapui5/example/25720/aggregation-binding-using-templates-in-xmlview"
     },
@@ -46,6 +50,10 @@
     }
   ],
   "JavaScript": [
+    {
+      "name": "웹 프로그래밍 튜토리얼(HTML5, CSS3, Javascript 등)",
+      "href": "https://poiemaweb.com/"
+    },
     {
       "name": "JS개발자라면 알아야할 33가지 개념",
       "href": "https://velog.io/@jakeseo_me/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-33%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90-9-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-1qjury0gya"
