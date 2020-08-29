@@ -11,11 +11,11 @@
       "description": "SAPUI5 Resources"
     },
     {
-      "path": "/test-resources",
+      "path": "/study-resources",
       "target": {
         "type": "service",
         "name": "sapui5",
-        "entryPath": "/test-resources"
+        "entryPath": "/study-resources"
       },
       "description": "SAPUI5 Resources"
     },
@@ -29,13 +29,13 @@
       "description": "SAPUI5 Resources"
     },
     {
-      "path": "/webapp/test-resources",
+      "path": "/webapp/study-resources",
       "target": {
         "type": "service",
         "name": "sapui5",
-        "entryPath": "/test-resources"
+        "entryPath": "/study-resources"
       },
-      "description": "SAPUI5 Test Resources"
+      "description": "SAPUI5 Study Resources"
     }
   ],
   "sendWelcomeFileRedirect": true

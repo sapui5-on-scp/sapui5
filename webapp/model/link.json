@@ -13,6 +13,14 @@
       "href": "https://answers.sap.com/tags/500983881501772639608291559920477?page=1&pageSize=15&sort=active&filter=all"
     },
     {
+      "name" : "SAPUI5 Official Tutorial",
+      "href" : "https://developers.sap.com/topics/ui5.html"
+    },
+    {
+      "name" : "openSAP 강의 (SCP, SAPUI5 외 다수)",
+      "href" : "https://open.sap.com/courses?topic=SAP+Cloud+Platform"
+    },
+    {
       "name": "문바이님의 블로그 (UI5 및 기타SAP전반)",
       "href": "http://m.blog.daum.net/rightvoice/category/UI5/UI5_%EB%82%B4%EC%9A%A9%EC%A0%95%EB%A6%AC"
     },
@@ -21,7 +29,7 @@
       "href": "https://riptutorial.com/sapui5/example/25720/aggregation-binding-using-templates-in-xmlview"
     },
     {
-      "name": "UI5관련 Velog",
+      "name": "UI5관련 튜토리얼 블로그 (opensapkr)",
       "href": "https://velog.io/@opensapkr?tag=ui5"
     },
     {
@@ -45,13 +53,17 @@
       "href": "https://inui.io/sap-ui5-best-practices/"
     },
     {
-      "name": "oData Service",
+      "name": "oData Service (Gateway Service)",
       "href": "https://blogs.sap.com/2018/04/10/sap-fiori-odata-service-examples/"
     }
   ],
   "JavaScript": [
     {
-      "name": "웹 프로그래밍 튜토리얼(HTML5, CSS3, Javascript 등)",
+      "name" : "생활코딩(이고잉님) JS 튜토리얼",
+      "href" : "https://opentutorials.org/course/743"
+    },
+    {
+      "name": "웹 프로그래밍 튜토리얼(HTML5, CSS3, JS 등)",
       "href": "https://poiemaweb.com/"
     },
     {

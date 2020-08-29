@@ -1,68 +1,38 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageBox",
-], function (Controller,MessageBox) {
+	'sap/ui/model/json/JSONModel',
+], function (Controller, MessageBox,JSONModel) {
 	"use strict";
 
-	return Controller.extend("ui5.test.controller.AppMain", {
+	return Controller.extend("ui5.study.controller.AppMain", {
 		onInit: function () {
-			console.log("onInit AppMain");
+			this.router = this.getOwnerComponent().getRouter();
+			var oModel = new JSONModel(sap.ui.require.toUrl("ui5/study/model/menuItem.json"));
+			this.getView().setModel(oModel);
+
+			if (!this._oPopover) {
+				this._oPopover = sap.ui.xmlfragment("ui5/study/fragment/PageSwitchPopover", this);
+				this.getView().addDependent(this._oPopover);
+			}
 		},
+		fnChange: function (oEvent) {
 
-		onBeforeRendering : function() {
-			let oLinkModel = this.getOwnerComponent().getModel("link");
-			let oData = oLinkModel.getData();
-			
-			this.fillVBox(oData);
-		},
+			const target = oEvent.getParameter("itemPressed").getTarget();
 
-		onPressTile : function () {
-			window.open("https://open.kakao.com/o/gaOOsZ4b","_href");
-		},
-
-		fillVBox : function (oData) {
-			let oUi5VBox = this.byId("ui5VBox");
-			let oJsVBox = this.byId("jsVBox");
-			let oUi5Data = oData.SAPUI5;
-			let oJsData = oData.JavaScript;
-
-			console.log(oUi5VBox);
-
-			for(let link of oUi5Data){
-				let oHBox = new sap.m.HBox();
-				let oLink = new sap.m.Link({
-					text : link.name,
-					href : link.href
-				});
-				
-				oHBox.addItem(new sap.m.Text({
-					text : "●"
-				}));
-				oHBox.addItem(new sap.m.HBox({
-					width : "1rem"
-				}));
-				oHBox.addItem(oLink);
-
-				oUi5VBox.addItem(oHBox);
+			if (target === "intro") {
+				this.router.navTo("Intro");
+			}
+			else if (target === "usefulLink") {
+				this.router.navTo("UsefulLink");
 			}
 
-			for(let link of oJsData){
-				let oHBox = new sap.m.HBox();
-				let oLink = new sap.m.Link({
-					text : link.name,
-					href : link.href
-				});
-				
-				oHBox.addItem(new sap.m.Text({
-					text : "●"
-				}));
-				oHBox.addItem(new sap.m.HBox({
-					width : "1rem"
-				}));
-				oHBox.addItem(oLink);
-
-				oJsVBox.addItem(oHBox);
-			}
+		},
+		fnOpen: function (oEvent) {
+			this._oPopover.openBy(oEvent.getParameter("button"));
+		},
+		fnClose: function () {
+			this._oPopover.close();
 		}
 	});
 });

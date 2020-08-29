@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "target": "intro",
+      "src": "sap-icon://sap-ui5",
+      "title": "Introduce",
+      "subTitle": "SAPUI5 Study"
+    },
+    {
+      "target": "usefulLink",
+      "src": "sap-icon://task",
+      "title": "Useful Link",
+      "subTitle": "SAPUI5 & JS"
+    }
+  ]
+}

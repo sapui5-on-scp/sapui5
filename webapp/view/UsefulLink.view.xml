@@ -1,0 +1,24 @@
+<mvc:View controllerName="ui5.study.controller.UsefulLink"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m">
+	<Page title="Userful Link" showNavButton="true" navButtonPress="onBack">
+		<content>
+			<Panel>
+				<headerToolbar>
+					<OverflowToolbar>
+						<Title text="1. SAPUI5"/>
+					</OverflowToolbar>
+				</headerToolbar>
+				<VBox id ="ui5VBox"/>
+			</Panel>
+			<Panel>
+				<headerToolbar>
+					<OverflowToolbar>
+						<Title text="2. Javascript"/>
+					</OverflowToolbar>
+				</headerToolbar>
+				<VBox id ="jsVBox"/>
+			</Panel>
+		</content>
+	</Page>
+</mvc:View>
