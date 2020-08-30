@@ -1,16 +1,8 @@
 /* Enter your custom styles here */
-.sapMText {
-    display: inline-block;
-    box-sizing: border-box;
-    white-space: pre-line;
-    word-wrap: break-word;
-    cursor: text;
-    font-size: 1rem;
-    font-family: "72","72full",Arial,Helvetica,sans-serif;
-    line-height: normal;
-    margin-top: 10px;
-    line-height: 140%;
-    color: #32363a;
+.descText .sapMText {
+    font-size: 1rem !important;
+    margin-top: 10px !important;
+    line-height: 140% !important;
 }
 
 .sapMLnk {
