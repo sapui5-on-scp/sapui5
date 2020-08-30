@@ -4,7 +4,7 @@
     xmlns:l="sap.ui.layout">
     <Page title="" showHeader="false">
         <content>
-            <FlexBox height="12rem" alignItems="Center" justifyContent="Start" direction="Column">
+            <FlexBox height="12rem" alignItems="Start" justifyContent="Start" direction="Column">
                 <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" backgroundImage="./resources/ui5_logo.png" frameType="TwoByOne" press="onPressTile">
                     <TileContent footer="클릭하시면 오픈채팅방으로 이동합니다." frameType="TwoByOne">
                         <NewsContent contentText="#SAPUI5 #FIORI #SCP #Javascript #IT Trends" subheader="관심있으신 분은 참여 부탁드립니다. (71/100명)" />
