@@ -9,8 +9,12 @@
       "href": "https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html"
     },
     {
-      "name": "SAP Community (UI5)",
+      "name": "SAP Community Q&A (UI5)",
       "href": "https://answers.sap.com/tags/500983881501772639608291559920477?page=1&pageSize=15&sort=active&filter=all"
+    },
+    {
+      "name": "SAP Community (UI5)",
+      "href": "https://community.sap.com/search/?ct=qa&q=SAPUI5"
     },
     {
       "name" : "SAPUI5 Official Tutorial",
@@ -37,6 +41,14 @@
       "href": "https://www.tutorialspoint.com/sap_ui5/sap_ui5_overview.htm"
     },
     {
+      "name" : "SAPUI5 관련 튜토리얼 (Sapyard)",
+      "href" : "https://sapyard.com/journey-to-sapui5-2/"
+    },
+    {
+      "name" : "SAPUI5, ABAP등 다수 좋은 내용 블로그 (한글)",
+      "href" : "http://blog.daum.net/rightvoice/category/UI5/UI5_%EB%82%B4%EC%9A%A9%EC%A0%95%EB%A6%AC"
+    },
+    {
       "name": "Fiori Design Guide",
       "href": "https://experience.sap.com/fiori-design-web/"
     },
@@ -55,6 +67,14 @@
     {
       "name": "oData Service (Gateway Service)",
       "href": "https://blogs.sap.com/2018/04/10/sap-fiori-odata-service-examples/"
+    },
+    {
+      "name": "oData Modeling (Visualize)",
+      "href": "https://pragmatiqa.com/xodata/"
+    },
+    {
+      "name": "a custom UI5 Library",
+      "href": "https://ui5lab.io/"
     }
   ],
   "JavaScript": [

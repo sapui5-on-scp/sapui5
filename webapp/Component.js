@@ -29,6 +29,7 @@ sap.ui.define([
 
 			// useful link json file binding
 			this.setModel(models.createLinkModel(), "link");
+
 		}
 	});
 });
