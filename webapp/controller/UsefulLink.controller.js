@@ -44,7 +44,8 @@ sap.ui.define([
 				let oHBox = new sap.m.HBox();
 				let oLink = new sap.m.Link({
 					text: link.name,
-					href: link.href
+					href: link.href,
+					target: "_blank"
 				});
 
 				oHBox.addItem(new sap.m.Text({
