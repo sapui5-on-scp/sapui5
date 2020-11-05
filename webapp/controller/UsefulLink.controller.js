@@ -8,15 +8,14 @@ sap.ui.define([
 	return Controller.extend("ui5.study.controller.UsefulLink", {
 		onInit: function () {
 			console.log("onInit UsefulLink");
-		},
-
-		onBeforeRendering: function () {
 			let oLinkModel = this.getOwnerComponent().getModel("link");
 			let oData = oLinkModel.getData();
 
-			console.log(oData);
-
 			this.fillVBox(oData);
+		},
+
+		onBeforeRendering: function () {
+
 		},
 
 		onBack: function () {
@@ -37,8 +36,6 @@ sap.ui.define([
 			let oJsVBox = this.byId("jsVBox");
 			let oUi5Data = oData.SAPUI5;
 			let oJsData = oData.JavaScript;
-
-			console.log(oUi5VBox);
 
 			for (let link of oUi5Data) {
 				let oHBox = new sap.m.HBox();
