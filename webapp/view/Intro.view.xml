@@ -12,7 +12,7 @@
                                 
                                     <TileContent footer="클릭하시면 오픈채팅방으로 이동합니다." frameType="TwoByOne">
                                         <NewsContent contentText="#SAPUI5 #FIORI #SCP #Javascript #IT Trends"
-                                            subheader="SAP/SAPUI5관련 즐거운 대화 나누어봐요. (115/200명)" />
+                                            subheader="SAP/SAPUI5관련 즐거운 대화 나누어봐요. (155/200명)" />
                                     </TileContent>
                             </GenericTile>
                             <!--<Button press="onPressEvtBtn" text="이벤트 바로가기" />-->
